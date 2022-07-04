@@ -1,3 +1,7 @@
+/*
+@author Sankhajit Roy
+*/
+// Static Variable
 
 public class Static_var {
 	
