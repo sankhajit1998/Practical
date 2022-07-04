@@ -1,3 +1,7 @@
+/*
+@author Sankhait Roy
+*/
+// Static Method
 public class Static_method {
 	
 	int rollno;
