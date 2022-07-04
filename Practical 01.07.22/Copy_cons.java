@@ -1,3 +1,7 @@
+/*
+@author Sankhajit Roy
+*/
+// Copy Constructor
 
 public class Copy_cons {
 	private String name;     // instance variable
