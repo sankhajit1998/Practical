@@ -1,5 +1,9 @@
 package sankha_java;
 
+/*
+@author Sankhajit Roy
+*/
+
 class car{   // parent class
 	void run() {
 		System.out.println("running mode on.");
