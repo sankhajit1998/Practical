@@ -2,6 +2,10 @@
 
 package sankha_java;
 
+/*
+@author Sankhajit Roy
+*/
+
 public class TypePromotion {  // class
 	void add(int a, long b) {  // method 1
 		System.out.println(a+b);
