@@ -12,6 +12,7 @@ public class DeadLockDemo {    //  main class
 		// t1 tries to lock r1 then r2
 		Thread t1 = new Thread() { 
 			public void run() {
+				// synchronized block
 				synchronized (r1) {
 				System.out.println("Thread 1: locked r1");	
 				// try block
@@ -32,6 +33,7 @@ public class DeadLockDemo {    //  main class
 		// t2 tries to lock r2 then r1
 		Thread t2 = new Thread() {  
 			public void run() {
+				// synchronized block
 				synchronized (r2) {
 				System.out.println("Thread 2: locked r2");	
 				// try block
